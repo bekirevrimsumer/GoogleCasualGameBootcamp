@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14aeb6179646a44478bfaa14f8d0e665, type: 3}
   m_Name: Saturn
   m_EditorClassIdentifier: 
-  planetName: 
+  planetName: Saturn
   planetRotateSpeed: 9.7
   planetSelfRotateSpeed: 36.84

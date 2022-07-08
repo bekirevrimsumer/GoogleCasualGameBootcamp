@@ -7,6 +7,7 @@ public class AstreoidController : MonoBehaviour
     public float speed = 250f;
     public List<GameObject> planets = new List<GameObject>();
     public GameObject targetPlanet;
+    public GameObject explosion;
 
     private Rigidbody _rigidbody;
 
@@ -47,7 +48,10 @@ public class AstreoidController : MonoBehaviour
         Debug.Log("Astreoid hit " + other.name);
         if (other.gameObject.layer == LayerMask.NameToLayer("Planet"))
         {
+            var explosionInstance = Instantiate(explosion, transform.position, Quaternion.identity);
+            explosionInstance.transform.parent = other.transform;
             Destroy(gameObject);
+            Destroy(explosionInstance, 4f);
         }
     }
 }

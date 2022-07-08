@@ -954,10 +954,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1352131073911039520, guid: d350a79cf20d9124f9f06ae2bceea853, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2029835278856824789, guid: d350a79cf20d9124f9f06ae2bceea853, type: 3}
       propertyPath: m_Name
       value: Uranus
@@ -1015,10 +1011,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2018777626957501371, guid: 3b6c7b0613c583f45b7c54c165da621d, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2740156589654904732, guid: 3b6c7b0613c583f45b7c54c165da621d, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1124,10 +1116,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neptune
       objectReference: {fileID: 0}
-    - target: {fileID: 8324920128587825015, guid: 5ce9a68191ab68044b434f9f7975f833, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ce9a68191ab68044b434f9f7975f833, type: 3}
 --- !u!1001 &3291774024116806255
@@ -1194,10 +1182,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1211539494179275759, guid: 99577536bc7240545a4e51cb10eb5869, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3459042877413907714, guid: 99577536bc7240545a4e51cb10eb5869, type: 3}
       propertyPath: m_Name
       value: Mercury
@@ -1303,10 +1287,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jupiter
       objectReference: {fileID: 0}
-    - target: {fileID: 7128301199421972775, guid: cbc00dc283aaca548b494b42a704c458, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbc00dc283aaca548b494b42a704c458, type: 3}
 --- !u!1001 &4361482422654728680
@@ -1316,10 +1296,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2412510747296556638, guid: 7b2b2975ef2f81a488c6f40b5c7528df, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4361482422833854611, guid: 7b2b2975ef2f81a488c6f40b5c7528df, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1377,10 +1353,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 411964155703106880, guid: c4d1cab6b15e97e41bdbd170928270b8, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6593896606568076997, guid: c4d1cab6b15e97e41bdbd170928270b8, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -1438,10 +1410,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 627576987833251467, guid: b62154d0777ddfd43a1d44f22ff0d2e2, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7038451122413994471, guid: b62154d0777ddfd43a1d44f22ff0d2e2, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -1499,10 +1467,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3225321591851128872, guid: 74f966c7154eecb4d806cd6b7ab13cf4, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8027513384242382924, guid: 74f966c7154eecb4d806cd6b7ab13cf4, type: 3}
       propertyPath: m_RootOrder
       value: 5

@@ -9,12 +9,10 @@ public class AstreoidController : MonoBehaviour
     public GameObject targetPlanet;
     public GameObject explosion;
 
-    private Rigidbody _rigidbody;
-
     private void Start()
     {
-        _rigidbody = GetComponent<Rigidbody>();
 
+        // We find the ones with TrackingObject tags on the scene and add them to our planets list.
         var planetObjects = GameObject.FindGameObjectsWithTag("TrackingObject");
         foreach (var planet in planetObjects)
         {
@@ -31,21 +29,18 @@ public class AstreoidController : MonoBehaviour
     GameObject ChooseRandomPlanet()
     {
         int randomIndex = Random.Range(0, planets.Count);
-        return planets[randomIndex];
+        return planets[randomIndex]; //targets a random one among the planets
     }
 
     void MoveToPlanet(GameObject targetPlanet)
     {
-        // Vector3 direction = targetPlanet.transform.position - transform.position;
-        // direction.Normalize();
-        // _rigidbody.AddForce(direction * speed);
-
+        //With MoveTowards to the target selected planet, the asteroid is made to move.
         transform.position = Vector3.MoveTowards(transform.position, targetPlanet.transform.position, speed * Time.deltaTime);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Astreoid hit " + other.name);
+        //If the asteroid hits a planet, we destroy the asteroid and create an explosion effect with particle effect. After 4 seconds we also destroy the particle effect
         if (other.gameObject.layer == LayerMask.NameToLayer("Planet"))
         {
             var explosionInstance = Instantiate(explosion, transform.position, Quaternion.identity);

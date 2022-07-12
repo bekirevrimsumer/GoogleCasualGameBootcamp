@@ -13,7 +13,7 @@ public class AstreoidManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            SpawnAstreoid();
+            SpawnAstreoid();//Creates asteroid when space key is pressed
         }
     }
 
@@ -25,6 +25,6 @@ public class AstreoidManager : MonoBehaviour
 
     Vector3 RandomPosition()
     {
-        return new Vector3(Random.Range(-rangeX, rangeX), Random.Range(-rangeY, rangeY), Random.Range(-rangeZ, rangeZ));
+        return new Vector3(Random.Range(-rangeX, rangeX), Random.Range(-rangeY, rangeY), Random.Range(-rangeZ, rangeZ));// function that generates random position within the specified range of values
     }
 }

@@ -61,13 +61,13 @@ public class CameraController : MonoBehaviour
 
     private void ClickPlanet()
     {
+        //if a planet is clicked, a panel with information about that planet opens
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, LayerMask.GetMask("Planet")))
         {
             if (hit.transform != null)
             {
-                Debug.Log(hit.transform.gameObject.name);
                 UIManager.instance.OpenPanel(hit.transform.gameObject.GetComponent<RotatePlanet>().planetData.name);
             }
         }
@@ -87,9 +87,10 @@ public class CameraController : MonoBehaviour
         }
     }
 
-    // Camera focusing on planets when pressing keys 1 to 8
     private void ChooseTargetPlanet()
     {
+        //we set the sun or any planet as a targetPlanet
+        // Camera focusing on planets when pressing keys 1 to 8
         var input = Input.inputString;
         switch (input)
         {
@@ -126,6 +127,7 @@ public class CameraController : MonoBehaviour
 
     IEnumerator AutoRotate()
     {
+        // If there is no interaction for 3 seconds, the camera automatically rotates around the targetPlanet.
         yield return new WaitForSeconds(idleTime);
         autoRotate = true;
     }

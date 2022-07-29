@@ -9,9 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14aeb6179646a44478bfaa14f8d0e665, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f21b35256b3f9149bd843d7766aba4a, type: 3}
   m_Name: Mercury
   m_EditorClassIdentifier: 
-  planetName: Mercury
+  CelestialName: Mercury
+  CelestialDescription: 
+  CelestialPrefab: {fileID: 3459042877413907714, guid: 99577536bc7240545a4e51cb10eb5869, type: 3}
   planetRotateSpeed: 47.4
   planetSelfRotateSpeed: 10.83
+  parentPlanet: {fileID: 4361482422833854623, guid: 7b2b2975ef2f81a488c6f40b5c7528df, type: 3}

@@ -203,7 +203,7 @@ GameObject:
   - component: {fileID: 3464973697090822222}
   - component: {fileID: 3664887694658088852}
   - component: {fileID: 1211539494179275759}
-  - component: {fileID: 113887590759808376}
+  - component: {fileID: 8172066316327150867}
   m_Layer: 6
   m_Name: Mercury
   m_TagString: TrackingObject
@@ -266,7 +266,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &113887590759808376
+--- !u!114 &8172066316327150867
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -275,11 +275,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 3459042877413907714}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fa5d08ce388b4f49befa99068656363, type: 3}
+  m_Script: {fileID: 11500000, guid: 84937173d55759a42927cbe932db923e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planetData: {fileID: 11400000, guid: 1450e652fc48b574cb258e9d61f43697, type: 2}
-  sun: {fileID: 0}
+  planetData: {fileID: 11400000, guid: 10ae1ace65ac239428e1ba44fa5cdf1e, type: 2}
+  targetObject: {fileID: 0}
 --- !u!1 &3459594370064806830
 GameObject:
   m_ObjectHideFlags: 0

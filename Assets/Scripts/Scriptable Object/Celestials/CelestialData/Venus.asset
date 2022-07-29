@@ -9,9 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14aeb6179646a44478bfaa14f8d0e665, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f21b35256b3f9149bd843d7766aba4a, type: 3}
   m_Name: Venus
   m_EditorClassIdentifier: 
-  planetName: Venus
+  CelestialName: Venus
+  CelestialDescription: 
+  CelestialPrefab: {fileID: 2741965612944490788, guid: 3b6c7b0613c583f45b7c54c165da621d, type: 3}
   planetRotateSpeed: 35
   planetSelfRotateSpeed: 6.52
+  parentPlanet: {fileID: 4361482422833854623, guid: 7b2b2975ef2f81a488c6f40b5c7528df, type: 3}

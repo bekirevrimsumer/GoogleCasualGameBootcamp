@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 7038451122413994471}
   - component: {fileID: 7162395384093385345}
   - component: {fileID: 627576987833251467}
-  - component: {fileID: 2393733433512746825}
+  - component: {fileID: 1170955023585389315}
   m_Layer: 6
   m_Name: Saturn
   m_TagString: TrackingObject
@@ -160,7 +160,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2393733433512746825
+--- !u!114 &1170955023585389315
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,11 +169,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7041906386846142863}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fa5d08ce388b4f49befa99068656363, type: 3}
+  m_Script: {fileID: 11500000, guid: 84937173d55759a42927cbe932db923e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planetData: {fileID: 11400000, guid: c27b2846207883f4bb36727fce6271c7, type: 2}
-  sun: {fileID: 0}
+  planetData: {fileID: 11400000, guid: c1a0d8eb2c57e53458fa97d22ba24f4f, type: 2}
+  targetObject: {fileID: 0}
 --- !u!1 &7042403579035720745
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,22 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public GameObject sun;
     public float rotateSpeed;
     public float idleTime = 3f;
     public float scrollSpeed = 10f;
     public bool autoRotate = false;
-    public List<GameObject> planets = new List<GameObject>();
     public GameObject targetPlanet;
 
+    private GameObject sun;
+    public List<GameObject> planets = new List<GameObject>();
     private Coroutine coroutine = null;
 
     void Start()
     {
-        targetPlanet = sun;
+        Initialize();
         StartCoroutine(AutoRotate());
     }
 
@@ -33,6 +34,13 @@ public class CameraController : MonoBehaviour
         DragRotate();
 
         ZoomCamera();
+    }
+
+    void Initialize()
+    {
+        sun = GameObject.FindGameObjectWithTag("Star");
+        targetPlanet = sun;
+        planets = GameObject.FindGameObjectsWithTag("TrackingObject").ToList();
     }
 
     private void DragRotate()
@@ -68,7 +76,7 @@ public class CameraController : MonoBehaviour
         {
             if (hit.transform != null)
             {
-                UIManager.instance.OpenPanel(hit.transform.gameObject.GetComponent<RotatePlanet>().planetData.name);
+                UIManager.instance.OpenPanel(hit.transform.gameObject.GetComponent<CelestialMovement>().planetData.CelestialName);
             }
         }
     }

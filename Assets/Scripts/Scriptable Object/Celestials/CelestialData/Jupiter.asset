@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f21b35256b3f9149bd843d7766aba4a, type: 3}
+  m_Name: Jupiter
+  m_EditorClassIdentifier: 
+  CelestialName: Jupiter
+  CelestialDescription: 
+  CelestialPrefab: {fileID: 4080127664520368058, guid: cbc00dc283aaca548b494b42a704c458, type: 3}
+  planetRotateSpeed: 13.1
+  planetSelfRotateSpeed: 45.58
+  parentPlanet: {fileID: 4361482422833854623, guid: 7b2b2975ef2f81a488c6f40b5c7528df, type: 3}

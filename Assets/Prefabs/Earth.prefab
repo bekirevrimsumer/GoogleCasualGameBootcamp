@@ -203,7 +203,7 @@ GameObject:
   - component: {fileID: 8027513384242382924}
   - component: {fileID: 7903070699396877236}
   - component: {fileID: 3225321591851128872}
-  - component: {fileID: 4878998462014775539}
+  - component: {fileID: 1663768648773008546}
   m_Layer: 6
   m_Name: Earth
   m_TagString: TrackingObject
@@ -266,7 +266,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4878998462014775539
+--- !u!114 &1663768648773008546
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -275,11 +275,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8030237705044244210}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fa5d08ce388b4f49befa99068656363, type: 3}
+  m_Script: {fileID: 11500000, guid: 84937173d55759a42927cbe932db923e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planetData: {fileID: 11400000, guid: 53e597e08755da049a1031e64fd4d892, type: 2}
-  sun: {fileID: 0}
+  planetData: {fileID: 11400000, guid: ef197f2d81c25e94d840ef3a5093c2f2, type: 2}
+  targetObject: {fileID: 0}
 --- !u!1 &8030948071322955196
 GameObject:
   m_ObjectHideFlags: 0

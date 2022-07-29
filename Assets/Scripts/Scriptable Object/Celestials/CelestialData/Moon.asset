@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f34183556ab284396bd5c6fc385fdb, type: 3}
+  m_Name: Moon
+  m_EditorClassIdentifier: 
+  CelestialName: Moon
+  CelestialDescription: Moon
+  CelestialPrefab: {fileID: 8030237705044244210, guid: 92c644433fe777840af66c47a4fb114f, type: 3}
+  planetRotateSpeed: 5
+  planetSelfRotateSpeed: 30
+  parentPlanet: {fileID: 8030237705044244210, guid: 74f966c7154eecb4d806cd6b7ab13cf4, type: 3}

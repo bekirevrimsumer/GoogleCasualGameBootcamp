@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b48ad9710f03374ab727f3cb842483a, type: 3}
+  m_Name: LevelData
+  m_EditorClassIdentifier: 
+  StarGroups:
+  - starData: {fileID: 11400000, guid: b56295bd2418db344b7031abc62adf97, type: 2}
+    starPosition: {x: 0, y: 0, z: 0}
+    Planets:
+    - planetData: {fileID: 11400000, guid: 10ae1ace65ac239428e1ba44fa5cdf1e, type: 2}
+      distanceToStar: 110
+      Satellites: []
+    - planetData: {fileID: 11400000, guid: c497854dab666ef4099af0490dc537ae, type: 2}
+      distanceToStar: 220
+      Satellites: []
+    - planetData: {fileID: 11400000, guid: ef197f2d81c25e94d840ef3a5093c2f2, type: 2}
+      distanceToStar: 296
+      Satellites:
+      - satelliteData: {fileID: 11400000, guid: 3b66161630cc18447b7ad9a892c5c588, type: 2}
+        distanceToPlanet: 15
+    - planetData: {fileID: 11400000, guid: b4d36af480c5de244b632d68ae4ca756, type: 2}
+      distanceToStar: 460
+      Satellites: []
+    - planetData: {fileID: 11400000, guid: 9784215b29ef7134b8104d8e01049800, type: 2}
+      distanceToStar: 600
+      Satellites: []
+    - planetData: {fileID: 11400000, guid: c1a0d8eb2c57e53458fa97d22ba24f4f, type: 2}
+      distanceToStar: 800
+      Satellites: []
+    - planetData: {fileID: 11400000, guid: 3efb0bf3308ce1248a620591ca037122, type: 2}
+      distanceToStar: 1000
+      Satellites: []
+    - planetData: {fileID: 11400000, guid: 7978e74502832a54399502f8a317f9a8, type: 2}
+      distanceToStar: 1200
+      Satellites: []

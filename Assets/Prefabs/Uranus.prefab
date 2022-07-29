@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2033931843101671487}
   - component: {fileID: 2229462833684350327}
   - component: {fileID: 1352131073911039520}
-  - component: {fileID: 3748721349146915611}
+  - component: {fileID: 2761840727830988022}
   m_Layer: 6
   m_Name: Uranus
   m_TagString: TrackingObject
@@ -75,7 +75,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3748721349146915611
+--- !u!114 &2761840727830988022
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -84,11 +84,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2029835278856824789}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fa5d08ce388b4f49befa99068656363, type: 3}
+  m_Script: {fileID: 11500000, guid: 84937173d55759a42927cbe932db923e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planetData: {fileID: 11400000, guid: 7cba5ddcc5b9e624b8376d9a89e12a37, type: 2}
-  sun: {fileID: 0}
+  planetData: {fileID: 11400000, guid: 3efb0bf3308ce1248a620591ca037122, type: 2}
+  targetObject: {fileID: 0}
 --- !u!1 &2030016228419143279
 GameObject:
   m_ObjectHideFlags: 0
